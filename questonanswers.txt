@@ -1,0 +1,22 @@
+git init 
+git clone <repoUrl>
+git remote -v
+git status
+git add <fileName>
+git add .
+git commit -m "your message"
+git diff
+git diff --staged
+git log
+git log --oneline
+git branch
+git branch <branchName>
+git switch <branchName> or git checkout <branchName>
+git checkout -b <branchName>
+git merge <branchName>
+git won't merge conflicting changes so it will pause merging process and it marks them as "unmerged".
+git pull <origin> <branchName>
+git push <origin> <branchName>
+Either you commit your changes or stash(temporarily save your unsaved changes).
+git conflict refers to a situation where two branches edit the same line in different ways and try to merge those changes.
+when two people edit the same line in the same file at diffrent branches and they try to merge or pull.
