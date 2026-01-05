@@ -19,4 +19,4 @@ git pull <origin> <branchName>
 git push <origin> <branchName>
 Either you commit your changes or stash(temporarily save your unsaved changes).
 git conflict refers to a situation where two branches edit the same line in different ways and try to merge those changes.
-when two branches edit the same line in the same file at diffrent branches and they try to merge or pull.
+when we edit the same line in the same file at diffrent branches and we try to merge or pull.
